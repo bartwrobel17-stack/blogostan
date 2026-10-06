@@ -1,0 +1,1 @@
+import type {SiteData} from "./data";export const saveData=(data:SiteData)=>{try{localStorage.setItem("blogostan-site",JSON.stringify(data))}catch{}};
